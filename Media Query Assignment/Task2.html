@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 30%;
+            margin: 15px;
+        }
+
+
+        /* for 800px screen size */
+        @media screen and (max-width: 800px) {
+            img {
+                width: 45%;
+            }
+        }
+
+        /* for 500px screen size */
+        @media screen and (max-width: 500px) {
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Problem Statement
+Create an image gallery with three images in a row. Use media queries to adjust the layout to two images in a
+row for screens smaller than 800px and one image in a row for screens smaller than 500px. -->
+
+    <div class="container">
+        <img src="https://fastly.picsum.photos/id/364/200/300.jpg?hmac=p9DQJ7EeVALsbnav-G_BYdU2et5ocKd4Qg_xwXjSc0k"
+            alt="image1">
+        <img src="https://fastly.picsum.photos/id/364/200/300.jpg?hmac=p9DQJ7EeVALsbnav-G_BYdU2et5ocKd4Qg_xwXjSc0k"
+            alt="image1">
+        <img src="https://fastly.picsum.photos/id/364/200/300.jpg?hmac=p9DQJ7EeVALsbnav-G_BYdU2et5ocKd4Qg_xwXjSc0k"
+            alt="image1">
+    </div>
+</body>
+
+</html>

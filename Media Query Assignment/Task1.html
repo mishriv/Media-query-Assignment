@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+        }
+
+
+        header {
+
+            background-color: #c3c7f3;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+            color: #000000;
+            text-align: center;
+        }
+
+        main {
+            margin: 50px 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        /* media screen for header */
+        @media screen and (max-width: 600px) {
+            header {
+                background-color: rgb(38, 255, 197);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Problem Statement
+Create a simple webpage with a header, a main content section, and a footer. Apply a media query that
+changes the background color of the header to blue when the screen width is less than 600px. -->
+    <header>
+        <h1>Responsive Header</h1>
+    </header>
+
+    <main>
+        <img src="https://www.seobility.net/en/wiki/images/thumb/6/6f/Media-Queries.png/675px-Media-Queries.png"
+            alt="Media-Queries" width="50%">
+    </main>
+
+    <footer>
+        <div id="copyright">
+            &#169; <span id="year"></span> Vikas Mishra. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
